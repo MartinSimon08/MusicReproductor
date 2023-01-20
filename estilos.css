@@ -1,0 +1,47 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    
+    background: url(./imagenes/modo-diablo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.listado-canciones{
+    width: 100%;
+}
+.cancion{
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titulo{
+    flex:6;
+}
+.play, .stop, .descargar{
+    flex: 1;
+    cursor: pointer;
+}
+
+
+
+.descargar{color: blue;}
+
+.stop{color: red;}
+
+.play{color: rgb(45, 182, 45);}
+
+.titulo{color: white;}
